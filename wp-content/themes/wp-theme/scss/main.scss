@@ -1,0 +1,30 @@
+/* Main
+================================================== */
+
+/* ----------------------------------------------- Global Variables & Mixins */
+// @import "lib/bourbon/bourbon",
+//         "lib/neat/neat";
+@import "lib/variables",
+        "lib/mixins";
+
+/* ----------------------------------------------- Lib */
+@import "lib/reset",
+        "lib/fonts",
+        "lib/tables",
+        "lib/forms",
+        "lib/vendor";
+
+/* ----------------------------------------------- Base */
+@import "components/base/base",
+        "components/base/typography",
+        "components/base/buttons";
+
+/* ----------------------------------------------- Layout */
+@import "components/layout/layout",
+        "components/layout/header",
+        "components/layout/navigation",
+        "components/layout/footer";
+
+/* ----------------------------------------------- Theme */
+@import "components/theme/components",
+        "components/theme/front-page";

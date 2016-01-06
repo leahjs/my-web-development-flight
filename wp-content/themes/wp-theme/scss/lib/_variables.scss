@@ -1,0 +1,55 @@
+/* Variables
+================================================== */
+
+// Grayscales
+$black: #000;
+$white: #fff;
+$gray-darkest: darken($white, 87.5%);
+$gray-darker: darken($white, 75%);
+$gray-dark: darken($white, 62.5%);
+$gray: darken($white, 50%);
+$gray-light: darken($white, 37.5%);
+$gray-lighter: darken($white, 25%);
+$gray-lightest: darken($white, 12.5%);
+
+// Standard Colors
+$red: #f00;
+$orange: #f90;
+$yellow: #ff0;
+$green: #0f0;
+$blue: #00f;
+$magenta: #f0f;
+$aqua: #0ff;
+$purple: #800080;
+$cyan: #00ADF2;
+$navy: #000080;
+$silver: #C0C0C0;
+
+// White Transparents
+$white-10: rgba(255, 255, 255, .1);
+$white-20: rgba(255, 255, 255, .2);
+$white-30: rgba(255, 255, 255, .3);
+$white-40: rgba(255, 255, 255, .4);
+$white-50: rgba(255, 255, 255, .5);
+$white-60: rgba(255, 255, 255, .6);
+$white-70: rgba(255, 255, 255, .7);
+$white-80: rgba(255, 255, 255, .8);
+$white-90: rgba(255, 255, 255, .9);
+
+// Overlays
+$overlay-10: rgba(0,0,0,.1);
+$overlay-20: rgba(0,0,0,.2);
+$overlay-30: rgba(0,0,0,.3);
+$overlay-40: rgba(0,0,0,.4);
+$overlay-50: rgba(0,0,0,.5);
+$overlay-60: rgba(0,0,0,.6);
+$overlay-70: rgba(0,0,0,.7);
+$overlay-80: rgba(0,0,0,.8);
+$overlay-90: rgba(0,0,0,.9);
+
+// Brand Colors
+$brand-main: $cyan;
+$brand-dark: #3d7f99;
+
+// Accent Colors
+$accent-1: tomato;
