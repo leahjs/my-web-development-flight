@@ -26,11 +26,11 @@
           </div>
 
           <!-- Secondary Column -->
-          <div class="small-12 medium-7 medium-offset-1 medium-push-4 columns">
+          <!-- <div class="small-12 medium-7 medium-offset-1 medium-push-4 columns">
             <div class="secondary">
               <h2 class="module-heading">Sidebar</h2>
             </div>
-          </div>
+          </div> -->
         </div>
     </section>
 
