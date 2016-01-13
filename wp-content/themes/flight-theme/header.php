@@ -53,7 +53,7 @@
 
 			<p>Please set Primary nav.</p>
               <p>
-                Hello Everyone!
+                Hello Someone!
               </p>
 
 		<?php endif; ?>
