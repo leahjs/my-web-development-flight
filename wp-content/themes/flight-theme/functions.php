@@ -14,6 +14,10 @@ require_once(get_stylesheet_directory() . '/includes/post-metas.php');
 // ACF HOOKS
 require_once(get_stylesheet_directory() . '/includes/acf-hooks.php');
 
+// end of INCLUDES
+
+
+// FUNCTIONS
 
 function flight_theme_styles(){
   wp_enqueue_style( 'foundtion_css', get_template_directory_uri() . '/css/foundation.css' );
@@ -24,7 +28,6 @@ function flight_theme_styles(){
 
 add_action( 'wp_enqueue_scripts', 'flight_theme_styles' );
 
-
 function flight_theme_js() {
   // wp_enqueue_script( 'modernizr_js', get_template_directory_uri() . '/js/modernizr.js', '', '', false);
   // wp_enqueue_script( 'foundation_js', get_template_directory_uri() . 'js/foundation.min.js', array('jquery'), '', true );
@@ -34,7 +37,5 @@ function flight_theme_js() {
 
 // add_action( 'wp_enqueue_scripts', 'flight_theme_js' );
 
-
-
-
+// end of FUNCTIONS
 ?>
