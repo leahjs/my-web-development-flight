@@ -32,7 +32,7 @@ function flight_theme_js() {
   // wp_enqueue_script( 'main_js', get_template_directory_uri() . '/js/main.js', '', '', true );
 }
 
-add_action( 'wp_enqueue_scripts', 'flight_theme_js' );
+// add_action( 'wp_enqueue_scripts', 'flight_theme_js' );
 
 
 
