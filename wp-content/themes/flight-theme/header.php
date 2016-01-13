@@ -52,10 +52,7 @@
 		<?php else : ?>
 
 			<p>Please set Primary nav.</p>
-              <p>
-                Hello Someone!
-              </p>
-
+  
 		<?php endif; ?>
       </header>
 

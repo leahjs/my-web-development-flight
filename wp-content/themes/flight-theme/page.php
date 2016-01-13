@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <section>
-  <?php dynamic_sidebars( 2, array( 'name' => 'Spending %d' ) ); ?>
+  <?php //dynamic_sidebars( 2, array( 'name' => 'Spending %d' ) ); ?>
 
 </section>
 
