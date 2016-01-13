@@ -60,7 +60,3 @@
       </header>
 
       <main>
-        <section class="row">
-          <img src="<?php bloginfo('template_url'); ?>/img/rocket_tours_blogtop.jpg" alt="" />
-        <h1>This is header.php and I better see a picture above this text!!!</h1>
-        </section>
