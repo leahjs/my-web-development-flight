@@ -53,7 +53,7 @@
 
 		<?php else : ?>
 
-			<p>Please set Primary navigation bar</p>
+			<p>Please set Primary Navigation bar</p>
 
 		<?php endif; ?>
       </header>
