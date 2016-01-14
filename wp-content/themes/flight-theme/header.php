@@ -39,26 +39,38 @@
       	 <div class="site-header__logo"><a href="<?php bloginfo('url'); ?>/" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></div>
         <h1><a class='current' href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
         <a href="" class="nav-toggle"><span></span>Menu</a>
+    <h1 class="open"><a class='current' href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
 
-         <?php if (has_nav_menu( 'primary' )) : ?>
-         <?php wp_nav_menu(
-				array(
-					'container_class' => 'primary-nav-container',
-					'depth' => 2,
-					'theme_location' => 'primary',
-					'link_before' => '<span>',
-					'link_after' => '</span>',
-					'menu_class' => 'primary-nav',
-          'menu_class' => 'no-bullet'
-				)
-			); ?>
+    <?php
+
+    $defaults = array(
+        'container' => false,
+        'theme_location' => 'primary-menu',
+        'menu_class' => 'no-bullet'
+      );
+
+    wp_nav_menu( $defaults );
+
+    ?>
+         <?php //if (has_nav_menu( 'primary' )) : ?>
+         <?php //wp_nav_menu(
+				// array(
+				// 	'container_class' => 'primary-nav-container',
+				// 	'depth' => 2,
+				// 	'theme_location' => 'primary',
+				// 	'link_before' => '<span>',
+				// 	'link_after' => '</span>',
+				// 	'menu_class' => 'primary-nav',
+        //   'menu_class' => 'no-bullet'
+				// )
+			// ); ?>
 
 
-		<?php else : ?>
+		<?php// else : ?>
 
-			<p>Please set Primary Navigation bar</p>
+			<!-- <p>Please set Primary Navigation bar</p> -->
 
-		<?php endif; ?>
+		<?php // endif; ?>
       </header>
 
       <main>
