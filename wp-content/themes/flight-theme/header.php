@@ -35,7 +35,7 @@
 
    	<div class="site">
 
-      <header class="site-header row no-max pad main">
+      <header class="row no-max pad main site-header">
       	 <div class="site-header__logo"><a href="<?php bloginfo('url'); ?>/" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></div>
 
          <h1 class="open"><a class='current' href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
