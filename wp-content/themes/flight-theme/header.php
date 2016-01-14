@@ -49,12 +49,10 @@
 				)
 			); ?>
 
-      <!-- I can make a variable and just pass the variable into the wp_nav_menu -->
-      <!-- I'm sure either way works -->
 
 		<?php else : ?>
 
-			<p>Please set Primary navigation bar You know with the rocket and the cool smoke.</p>
+			<p>Please set Primary navigation bar</p>
 
 		<?php endif; ?>
       </header>

@@ -16,6 +16,8 @@ require_once(get_stylesheet_directory() . '/includes/acf-hooks.php');
 
 // end of INCLUDES
 
+add_theme_support( 'menus' );
+add_theme_support( 'post-thumbnails' );
 
 // FUNCTIONS
 
