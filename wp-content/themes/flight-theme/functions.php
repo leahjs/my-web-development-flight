@@ -17,8 +17,16 @@ require_once(get_stylesheet_directory() . '/includes/acf-hooks.php');
 // end of INCLUDES
 
 add_theme_support( 'menus' );
-add_theme_support( 'post-thumbnails' );
 
+function register_theme_menus() {
+  register_nav_menus(
+    array(
+      'primary-menu' => __( 'Primary Menu')
+      )
+    );
+}
+
+add_action( 'init', 'register_theme_menus' );
 // FUNCTIONS
 
 function flight_theme_styles(){
