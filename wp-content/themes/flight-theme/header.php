@@ -45,7 +45,8 @@
 					'theme_location' => 'primary',
 					'link_before' => '<span>',
 					'link_after' => '</span>',
-					'menu_class' => 'primary-nav'
+					'menu_class' => 'primary-nav',
+          'menu_class' => 'no-bullet'
 				)
 			); ?>
 
