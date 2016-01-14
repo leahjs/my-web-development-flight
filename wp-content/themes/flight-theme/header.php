@@ -35,8 +35,11 @@
 
    	<div class="site">
 
-      <header class="site-header">
+      <header class="site-header row no-max pad main">
       	 <div class="site-header__logo"><a href="<?php bloginfo('url'); ?>/" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></div>
+        <h1><a class='current' href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
+        <a href="" class="nav-toggle"><span></span>Menu</a>
+
          <?php if (has_nav_menu( 'primary' )) : ?>
          <?php wp_nav_menu(
 				array(
