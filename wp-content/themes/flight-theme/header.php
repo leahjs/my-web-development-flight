@@ -33,13 +33,16 @@
 
    <body <?php body_class(); ?>>
 
-   	<div class="site">
-
+   	<!-- <div class="site"> -->
       <header class="row no-max pad main site-header">
-      	 <div class="site-header__logo"><a href="<?php bloginfo('url'); ?>/" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></div>
-
+      	 <!-- <div class="site-header__logo"><a href="<?php// bloginfo('url'); ?>/" title="<?php// bloginfo('name'); ?>"><?php// bloginfo('name'); ?></a></div> -->
          <h1 class="open"><a class='current' href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
         <a href="" class="nav-toggle"><span></span>Menu</a>
+
+  <nav>
+
+    <h1 class="open"><a class='current' href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
+
 
     <?php
 
@@ -71,6 +74,7 @@
 			<!-- <p>Please set Primary Navigation bar</p> -->
 
 		<?php // endif; ?>
+</nav>
       </header>
 
       <main>
