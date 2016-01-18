@@ -1,5 +1,7 @@
 <?php get_header(); ?>
-
+<p>
+  this is page.php
+</p>
 <section>
   <?php //dynamic_sidebars( 2, array( 'name' => 'Spending %d' ) ); ?>
 

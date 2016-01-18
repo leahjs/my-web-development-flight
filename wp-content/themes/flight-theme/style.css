@@ -6,7 +6,9 @@
    Version:
    Tags: clean, minimal
 */
-
+* {
+  transition: 1s;
+}
 @-moz-keyframes logo-fade {
   0% {
     opacity: 0;
@@ -146,27 +148,34 @@ header h1.open {
   top: 20px;
   left: 20px;
 }
+
+
 header h1 a {
-  background: #384047;
+  /*background: #384047;*/
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
   border-radius: 2px;
-  color: white;
+  color: #384047;
   display: block;
   float: left;
   height: 60px;
   margin: 0;
   padding: 0 20px;
   text-align: center;
-  font-size: 25px;
+  font-size: 18px;
   line-height: 60px;
   font-weight: 700;
   -webkit-transition: all 300ms ease-in-out;
   -moz-transition: all 300ms ease-in-out;
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+}
+@media only screen and (max-width : 500px) {
+  header h1 a {
+    font-size: 14px;
+  }
 }
 header h1 a:hover {
   background: #2d3339;
@@ -203,12 +212,38 @@ nav {
   left: 0;
   right: 0;
   z-index: 100;
-  overflow: scroll;
+  overflow: hidden;
 }
+
 @media all and (min-width: 40.063em) {
   nav {
     overflow: visible;
   }
+}
+.no-bullet {
+  /*padding-top: 14%;*/
+}
+
+.no-bullet > ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.no-bullet > ul > li {
+  padding: 0;
+
+}
+
+.no-bullet > ul > li > a{
+    padding: 33px 0px;
+    background-color: #dddddd;
+    display: block;
+    text-align: center;
+    font-size: 38px;
+}
+.no-bullet > ul > li > a:hover{
+  color: #ffffff;
+  background-color: #2d3339;
 }
 nav > ul {
   margin: 100px auto 0 !important;
@@ -243,6 +278,7 @@ nav > ul > li > a {
   font-weight: 700;
   padding: 10px 20px;
   display: block;
+
 }
 nav > ul > li > a:hover {
   color: rgba(56, 64, 71, 0.8);
@@ -969,4 +1005,18 @@ ol.children {
 }
 .article-list .articles > li {
   margin: 20px 0 50px;
+}
+/*********************************/
+/* MY STYLES ADDT TO FOUNDATIONS */
+/*********************************/
+
+.row {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.hero {
+  padding: 0;
+}
+.hero img {
+  width: 100%;
 }

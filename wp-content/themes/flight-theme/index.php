@@ -1,15 +1,13 @@
 <?php get_header(); ?>
 
-
-<section class="row">
+<section class="row hero">
   <img src="<?php bloginfo('template_url'); ?>/img/rocket_tours_blogtop.jpg" alt="Hero-image" />
-<h1>This is index.php and I better see a picture above this text!!!</h1>
 </section>
 
 <section class="row">
 
    <?php if ( have_posts() ): ?>
-   <h2>Latest Posts</h2>
+   <!-- <h2>Latest Posts</h2> -->
    <?php while ( have_posts() ) : the_post(); ?>
       <article>
          <h2><a href="<?php esc_url( the_permalink() ); ?>" title="Permalink to <?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
